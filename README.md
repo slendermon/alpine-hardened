@@ -28,4 +28,4 @@ After applying this, you may do `abuild -r` to start compiling the kernel.
 #### Some resources for help creating this page:
 - https://strfry.github.io/blog/building-alpine-kernel.html
 #### Linux-Hardened KCONFIG file
-- https://github.com/slendermon/Archlinux-hardened.config
+- https://github.com/a13xp0p0v/kernel-hardening-checker/blob/master/kernel_hardening_checker/config_files/distros/Arch_hardened_x86_64.config
