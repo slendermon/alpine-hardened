@@ -18,6 +18,9 @@ Before compiling the kernel, in [the Alpine Linux kernel guide.](#custom-kernel)
 
 After applying this, you may do `abuild -r` to start compiling the kernel.
 
+After compiling kernel, it is also recommended to use the apk package hardened-malloc, within /etc/ld.so.preload:
+`/usr/lib/libhardened_malloc.so`
+
 ## External Links:
 #### Custom Kernel:
 - https://wiki.alpinelinux.org/wiki/Custom_Kernel
